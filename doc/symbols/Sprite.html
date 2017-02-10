@@ -1,0 +1,3057 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - Sprite</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 800px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 600px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/Animation.html">Animation</a></li>
+	
+	<li><a href="../symbols/IsoCharacter.html">IsoCharacter</a></li>
+	
+	<li><a href="../symbols/Path.html">Path</a></li>
+	
+	<li><a href="../symbols/PhysicsObject.html">PhysicsObject</a></li>
+	
+	<li><a href="../symbols/SceneObject.html">SceneObject</a></li>
+	
+	<li><a href="../symbols/Sprite.html">Sprite</a></li>
+	
+	<li><a href="../symbols/TextSprite.html">TextSprite</a></li>
+	
+	<li><a href="../symbols/Wade.html">Wade</a></li>
+	
+	<li><a href="../symbols/Wade_drawFunctions.html">Wade_drawFunctions</a></li>
+	
+	<li><a href="../symbols/Wade_iso.html">Wade_iso</a></li>
+	
+	<li><a href="../symbols/Wade_physics.html">Wade_physics</a></li>
+	
+	<li><a href="../symbols/Wade_vec2.html">Wade_vec2</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class Sprite
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class Sprite.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/Sprite.html#constructor">Sprite</a></b>(image, layerId)
+							</div>
+							<div class="description">A Sprite object is used to display images.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class Sprite.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#addAnimation">addAnimation</a></b>(name, animation, dontPlay)
+								</div>
+								<div class="description">Add an animation to the sprite.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#alwaysDraw">alwaysDraw</a></b>(toggle)
+								</div>
+								<div class="description">Force a sprite to get drawn every frame, disabling potential optimizations.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#bringToFront">bringToFront</a></b>()
+								</div>
+								<div class="description">Bring the sprite to the front of its layer.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#cache">cache</a></b>()
+								</div>
+								<div class="description">Draw this sprite to an off-screen canvas, then use this canvas as a source image whenever this sprite needs to be drawn again</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#clone">clone</a></b>()
+								</div>
+								<div class="description">Clone the sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#containsScreenPoint">containsScreenPoint</a></b>(point)
+								</div>
+								<div class="description">Check whether the sprite contains a given screen space point</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#drawToImage">drawToImage</a></b>(virtualPath, replace, offset, transform, compositeOperation, renderMode)
+								</div>
+								<div class="description">Draw a sprite to an image associated with a virtual path.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#drawToTexture">drawToTexture</a></b>(gpuTextureName, cpuTextureName)
+								</div>
+								<div class="description">Draw the sprite to a WebGL texture in GPU memory.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#fadeIn">fadeIn</a></b>(time, callback)
+								</div>
+								<div class="description">Fade in effect, gradually changing the opacity (alpha) of the sprite from 0 to 1.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#fadeOut">fadeOut</a></b>(time, callback)
+								</div>
+								<div class="description">Fade out effect, gradually changing the opacity (alpha) of the sprite from 1 to 0.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getAllImageNames">getAllImageNames</a></b>()
+								</div>
+								<div class="description">Get the names of all images being used by this sprite and its animations</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getAnimation">getAnimation</a></b>(name)
+								</div>
+								<div class="description">Get the animation object associated with a given animation name</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getCurrentAnimation">getCurrentAnimation</a></b>()
+								</div>
+								<div class="description">Get the active animation object for the sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getCurrentAnimationName">getCurrentAnimationName</a></b>()
+								</div>
+								<div class="description">Get the name of the active animation for the sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getDrawFunction">getDrawFunction</a></b>()
+								</div>
+								<div class="description">Get the current draw function of the sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getDrawModifiers">getDrawModifiers</a></b>()
+								</div>
+								<div class="description">Get the current modifiers that are applied to the sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getImageArea">getImageArea</a></b>()
+								</div>
+								<div class="description">Get the area of the source image (expressed as a fraction of the source image size) that is being used to draw this sprite.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getImageName">getImageName</a></b>()
+								</div>
+								<div class="description">Get the name of the image being used</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getIndexInLayer">getIndexInLayer</a></b>()
+								</div>
+								<div class="description">Get the index of the sprite in its layer.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getLayerId">getLayerId</a></b>()
+								</div>
+								<div class="description">Get the id of the sprite's layer</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getName">getName</a></b>()
+								</div>
+								<div class="description">Get the current name of this sprite, if it was set with Sprite.setName()</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getOverlappingObjects">getOverlappingObjects</a></b>(searchAllLayers, precision)
+								</div>
+								<div class="description">Get an array of objects overlapping this sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getPixelShader">getPixelShader</a></b>()
+								</div>
+								<div class="description">Get the source code of the current pixel shader function for this sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getPixelShaderUniforms">getPixelShaderUniforms</a></b>()
+								</div>
+								<div class="description">Get a list of the custom shader uniforms for this sprite.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getPosition">getPosition</a></b>()
+								</div>
+								<div class="description">Get the world space position of the sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getRotation">getRotation</a></b>()
+								</div>
+								<div class="description">Get the current rotation angle of the sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getScaleFactor">getScaleFactor</a></b>()
+								</div>
+								<div class="description">Get the current scale factor of the sprite, that is its size compared to the source image (or animation frame) size</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getSceneObject">getSceneObject</a></b>()
+								</div>
+								<div class="description">Get the parent scene object for this sprite (if any)</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getScreenPositionAndExtents">getScreenPositionAndExtents</a></b>()
+								</div>
+								<div class="description">Get the screen space position and extents for this sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getSize">getSize</a></b>()
+								</div>
+								<div class="description">Get the world space size of the sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getSortPoint">getSortPoint</a></b>()
+								</div>
+								<div class="description">Get the sprite's sort point that is used in the calculations to determine whether the sprite should appear in front of other sprites in the same layer, according to the layer's sorting mode.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#getWorldOffset">getWorldOffset</a></b>(screenPosition)
+								</div>
+								<div class="description">Convert a screen space position into a world space offset relative to the sprite's world space position</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#hasAnimation">hasAnimation</a></b>(name)
+								</div>
+								<div class="description">Check whether the sprite has an animation that matches the given name</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#isAlwaysDrawing">isAlwaysDrawing</a></b>()
+								</div>
+								<div class="description">Check whether a sprite is being forcefully drawn every frame</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#isUsingPixelPerfectMouseEvents">isUsingPixelPerfectMouseEvents</a></b>()
+								</div>
+								<div class="description">Check whether the Sprite is using pixel-perfect mouse events, i.e.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#isVisible">isVisible</a></b>()
+								</div>
+								<div class="description">Check whether the sprite is visible</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#overlapsSprite">overlapsSprite</a></b>(otherSprite)
+								</div>
+								<div class="description">Test to see whether this sprite overlaps another sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#playAnimation">playAnimation</a></b>(name, direction)
+								</div>
+								<div class="description">Play an animation for this sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#pushToBack">pushToBack</a></b>()
+								</div>
+								<div class="description">Send the sprite to the back of its layer.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#putBehindSprite">putBehindSprite</a></b>(otherSprite)
+								</div>
+								<div class="description">Move the sprite behind another sprite in the same layer.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#resumeAnimation">resumeAnimation</a></b>()
+								</div>
+								<div class="description">Resume playing an animation that had been stopped</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#serialize">serialize</a></b>(stringify, propertiesToExclude)
+								</div>
+								<div class="description">Export this sprite to an object that can then be used to create a new sprite like this one (by passing the resulting object to the Sprite constructor).</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#setDirtyArea">setDirtyArea</a></b>()
+								</div>
+								<div class="description">Mark the area occupied by the sprite as dirty.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#setDrawFunction">setDrawFunction</a></b>(drawFunction)
+								</div>
+								<div class="description">Set a custom draw function for the sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#setDrawModifiers">setDrawModifiers</a></b>(modifiers)
+								</div>
+								<div class="description">Set draw modifiers for this sprite.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#setImageArea">setImageArea</a></b>(minX, minY, maxX, maxY)
+								</div>
+								<div class="description">Set the area of the source image that should be used to draw this sprite.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#setImageFile">setImageFile</a></b>(image, updateSizeFromImage)
+								</div>
+								<div class="description">Set an image to use with the current sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#setIndexInLayer">setIndexInLayer</a></b>(index)
+								</div>
+								<div class="description">Set the sprite's index in its layer.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#setLayer">setLayer</a></b>(layerId)
+								</div>
+								<div class="description">Set a new layer for the sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#setName">setName</a></b>(name)
+								</div>
+								<div class="description">Set a name for the sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#setPixelShader">setPixelShader</a></b>(shaderSource, shaderUniforms)
+								</div>
+								<div class="description">Set a custom pixel shader for this sprite.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#setPosition">setPosition</a></b>(positionX, positionY)
+								</div>
+								<div class="description">Set the world space position of the sprite.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#setRotation">setRotation</a></b>(rotation)
+								</div>
+								<div class="description">Set a rotation angle for the sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#setSceneObject">setSceneObject</a></b>(sceneObject)
+								</div>
+								<div class="description">Set the parent scene object for the sprite.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#setSize">setSize</a></b>(width, height, resetScaleFactor)
+								</div>
+								<div class="description">Set the world space size of the sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#setSortPoint">setSortPoint</a></b>(x, y)
+								</div>
+								<div class="description">Set a sort point for the sprite.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#setVisible">setVisible</a></b>(toggle)
+								</div>
+								<div class="description">Show or hide a sprite</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#step">step</a></b>()
+								</div>
+								<div class="description">Perform a simulation step for the sprite.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#stopAnimation">stopAnimation</a></b>()
+								</div>
+								<div class="description">Stop the animation that is currently playing</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Sprite.html#usePixelPerfectMouseEvents">usePixelPerfectMouseEvents</a></b>(toggle)
+								</div>
+								<div class="description">Set the Sprite to use (or not use) pixel-perfect mouse events, i.e.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>Sprite</b>(image, layerId)
+				</div>
+				
+				<div class="description">
+					A Sprite object is used to display images. It may have references to Animation objects if the image to display is supposed to be animating.
+					
+				</div>
+				
+				
+				
+				
+					
+						<dl class="detailList">
+						<dt class="heading">Parameters:</dt>
+						
+							<dt>
+								<span class="light fixedFont">{string|object}</span>  <b>image</b>
+								<i>Optional</i>
+							</dt>
+								<dd>The file name of an image that has previously been loaded. If falsy, a blank (white) image will be used. You can also use this constructor by passing in a single object (so just the first parameter) that contains all the sprite properties that you want to set (see remarks below for more details).</dd>
+						
+							<dt>
+								<span class="light fixedFont">{number}</span>  <b>layerId</b>
+								<i>Optional, Default:  wade.defaultLayer</i>
+							</dt>
+								<dd>The id of the layer that will contain the sprite
+<br/><br/><b>Remarks:</b><br/> You can also use this constructor by passing in a single object (so just the first parameter) that contains all the sprite properties that you want to set. In this case, the object structure is as follows (all fields are optional): <br/><pre>
+ {
+    type: 'Sprite',
+    sortPoint: {x: number, y: number},
+    layer: number,
+    name: string,
+    size: {x: number, y: number},
+    autoResize: boolean,
+    visible: boolean,
+    image: string,
+    imageArea: {minX: number, minY: number, maxX: number, maxY: number}
+    animations: {},
+    currentAnimation: string,
+    pixelShader: string,
+    pixelShaderUniforms: {name1: type1, name2: type2, ...},
+    alwaysDraw: boolean,
+    pixelPerfectMouseEvents: boolean,
+    properties: {}
+ }
+ </pre>
+ Where properties is a set of properties to copy into the new sprite object. Note that properties are deep-copied, and cannot contain functions or cyclical references.<br/>
+ The animations object can contain any number of animations, each associated with a unique name. See the Animation documentation for more details.</dd>
+						
+						</dl>
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="addAnimation"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>addAnimation</b>(name, animation, dontPlay)
+					
+					</div>
+					<div class="description">
+						Add an animation to the sprite. If, after this operation, there is only one animation for this sprite, it will be played automatically
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>name</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The animation name. This can be omitted, in which case the 'name' parameter of the Animation object will be used.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/Animation.html">Animation</a>}</span> <b>animation</b>
+									
+								</dt>
+								<dd>The animation object</dd>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>dontPlay</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Don't play the animation automatically, even if no other animations are present</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="alwaysDraw"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>alwaysDraw</b>(toggle)
+					
+					</div>
+					<div class="description">
+						Force a sprite to get drawn every frame, disabling potential optimizations. This does not happen by default, i.e. drawing optimizations are enabled by default.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>toggle</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Whether to draw the sprite every frame. If omitted or undefined, this parameter is assumed to be true.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="bringToFront"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>bringToFront</b>()
+					
+					</div>
+					<div class="description">
+						Bring the sprite to the front of its layer. Note that if any sorting function (other than 'none') has been specified for the layer, when the sorting occurs it will override this operation
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="cache"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>cache</b>()
+					
+					</div>
+					<div class="description">
+						Draw this sprite to an off-screen canvas, then use this canvas as a source image whenever this sprite needs to be drawn again
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="clone"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/Sprite.html">Sprite</a>}</span>
+					<b>clone</b>()
+					
+					</div>
+					<div class="description">
+						Clone the sprite
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/Sprite.html">Sprite</a>}</span> A copy of the sprite</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="containsScreenPoint"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{boolean}</span>
+					<b>containsScreenPoint</b>(point)
+					
+					</div>
+					<div class="description">
+						Check whether the sprite contains a given screen space point
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>point</b>
+									
+								</dt>
+								<dd>An object with 'x' and 'y' fields representing the screen space point to test</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{boolean}</span> Whether the sprite contains the point</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="drawToImage"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>drawToImage</b>(virtualPath, replace, offset, transform, compositeOperation, renderMode)
+					
+					</div>
+					<div class="description">
+						Draw a sprite to an image associated with a virtual path. The image will be stored in CPU memory. To create a WebGL texture in GPU memory, use Sprite.drawToTexture instead.<br/>
+Note that, technically, this creates an HTML canvas object rather than an HTML img object, to save memory and increase performance
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>virtualPath</b>
+									
+								</dt>
+								<dd>The virtual path of the image - this  can later be used to retrieve the image via wade.getImage(virtualPath)</dd>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>replace</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Whether to replace the existing image at the virtual path (if it exists), or draw on top of it</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>offset</b>
+									<i>Optional</i>
+								</dt>
+								<dd>An object with 'x' and 'y' fields representing the offset to use when drawing this sprite onto the image</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>transform</b>
+									<i>Optional</i>
+								</dt>
+								<dd>An object with 6 parameters: 'horizontalScale', 'horizontalSkew', 'verticalSkew', 'verticalScale', 'horizontalTranslate', 'verticalTranslate'</dd>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>compositeOperation</b>
+									<i>Optional</i>
+								</dt>
+								<dd>A string describing an HTML5 composite operation</dd>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>renderMode</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The render mode to use. This defaults to the sprite's layer's current render mode, and can be either '2d' or 'webgl'</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="drawToTexture"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Object}</span>
+					<b>drawToTexture</b>(gpuTextureName, cpuTextureName)
+					
+					</div>
+					<div class="description">
+						Draw the sprite to a WebGL texture in GPU memory. Note that this is only possible if the sprite is currently on a WebGL layer.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>gpuTextureName</b>
+									<i>Optional</i>
+								</dt>
+								<dd>A name to associate to the texture. Using this name, it is possible to set the texture as a shader uniform (of type Sampler2D) for other sprites on the same layer.</dd>
+							
+								<dt>
+									<b>cpuTextureName</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> A WebGL texture object</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="fadeIn"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>fadeIn</b>(time, callback)
+					
+					</div>
+					<div class="description">
+						Fade in effect, gradually changing the opacity (alpha) of the sprite from 0 to 1. If the sprite is invisible, it is set to visible before fading in.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{number}</span> <b>time</b>
+									<i>Optional, Default: 1</i>
+								</dt>
+								<dd>How many seconds the transition should last. Note that this won't be extremely accurate - to make the effect smooth, it must ultimately depend on the actual frame rate of the app.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{function}</span> <b>callback</b>
+									<i>Optional</i>
+								</dt>
+								<dd>A function to execute when the transition is over</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="fadeOut"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>fadeOut</b>(time, callback)
+					
+					</div>
+					<div class="description">
+						Fade out effect, gradually changing the opacity (alpha) of the sprite from 1 to 0. After fading out, the sprite is set to invisible.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{number}</span> <b>time</b>
+									<i>Optional, Default: 1</i>
+								</dt>
+								<dd>How many seconds the transition should last. Note that this won't be extremely accurate - to make the effect smooth, it must ultimately depend on the actual frame rate of the app.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{function}</span> <b>callback</b>
+									<i>Optional</i>
+								</dt>
+								<dd>A function to execute when the transition is over</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="getAllImageNames"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>getAllImageNames</b>()
+					
+					</div>
+					<div class="description">
+						Get the names of all images being used by this sprite and its animations
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> A list of image names</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getAnimation"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/Animation.html">Animation</a>}</span>
+					<b>getAnimation</b>(name)
+					
+					</div>
+					<div class="description">
+						Get the animation object associated with a given animation name
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>name</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The name of the animation. If omitted, the current animation will be returned.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/Animation.html">Animation</a>}</span> The animation object</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getCurrentAnimation"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/Animation.html">Animation</a>}</span>
+					<b>getCurrentAnimation</b>()
+					
+					</div>
+					<div class="description">
+						Get the active animation object for the sprite
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/Animation.html">Animation</a>}</span> The active animation object for the sprite</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getCurrentAnimationName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/Animation.html">Animation</a>}</span>
+					<b>getCurrentAnimationName</b>()
+					
+					</div>
+					<div class="description">
+						Get the name of the active animation for the sprite
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/Animation.html">Animation</a>}</span> The name of the active animation for the sprite</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getDrawFunction"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Function}</span>
+					<b>getDrawFunction</b>()
+					
+					</div>
+					<div class="description">
+						Get the current draw function of the sprite
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Function}</span> The current draw function. Depending on the sprite's layer's render mode, this could be either a WebGL or a canvas-based draw function.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getDrawModifiers"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>getDrawModifiers</b>()
+					
+					</div>
+					<div class="description">
+						Get the current modifiers that are applied to the sprite
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> A list of active draw modifiers. See Sprite.setDrawModifiers for more details.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getImageArea"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{{minX: number|minY: number|maxX: number|maxY: number}}</span>
+					<b>getImageArea</b>()
+					
+					</div>
+					<div class="description">
+						Get the area of the source image (expressed as a fraction of the source image size) that is being used to draw this sprite. If this wasn't modified with setImageArea(), by default the sprite uses the full image from (0, 0) to (1, 1).
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{{minX: number|minY: number|maxX: number|maxY: number}}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getImageName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{string}</span>
+					<b>getImageName</b>()
+					
+					</div>
+					<div class="description">
+						Get the name of the image being used
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{string}</span> The name of the image being used</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getIndexInLayer"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{number}</span>
+					<b>getIndexInLayer</b>()
+					
+					</div>
+					<div class="description">
+						Get the index of the sprite in its layer. For unsorted layers this matches the order in which the sprites were added to the layers, though for layers with sorting this may change every frame accoring to the sorting criterion.
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{number}</span> The index of the sprite in its layer. This can be -1 if the sprite has not been added to the layer yet.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getLayerId"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{number}</span>
+					<b>getLayerId</b>()
+					
+					</div>
+					<div class="description">
+						Get the id of the sprite's layer
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{number}</span> The id of the sprite's layer</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getName"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{string}</span>
+					<b>getName</b>()
+					
+					</div>
+					<div class="description">
+						Get the current name of this sprite, if it was set with Sprite.setName()
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{string}</span> The name of this object</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getOverlappingObjects"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>getOverlappingObjects</b>(searchAllLayers, precision)
+					
+					</div>
+					<div class="description">
+						Get an array of objects overlapping this sprite
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>searchAllLayers</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Whether to extend the search to all layers. This is false by default, meaning that only overlapping sprites on the same layer will be considered.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>precision</b>
+									<i>Optional</i>
+								</dt>
+								<dd>How accurately to search for overlaps. This can be either 'axis-aligned' (which would consider the axis-aligned bounding box of the sprites), or 'oriented', which takes into account the rotation of each sprite. Default is 'axis-aligned'</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> All the objects that are overlapping this sprite</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getPixelShader"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{string}</span>
+					<b>getPixelShader</b>()
+					
+					</div>
+					<div class="description">
+						Get the source code of the current pixel shader function for this sprite
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{string}</span> The contents of the current pixel shader function</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getPixelShaderUniforms"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Object}</span>
+					<b>getPixelShaderUniforms</b>()
+					
+					</div>
+					<div class="description">
+						Get a list of the custom shader uniforms for this sprite.
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> A copy of the object that was set in the last call to setPixelShader(), and has the format {name1: type1, name2: type2, ...}</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getPosition"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Object}</span>
+					<b>getPosition</b>()
+					
+					</div>
+					<div class="description">
+						Get the world space position of the sprite
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> An object with 'x' and 'y' field representing world space coordinates</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getRotation"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{number}</span>
+					<b>getRotation</b>()
+					
+					</div>
+					<div class="description">
+						Get the current rotation angle of the sprite
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{number}</span> The current rotation angle in radians. A positive value indicates a clockwise rotation</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getScaleFactor"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{{x: number|y: number}}</span>
+					<b>getScaleFactor</b>()
+					
+					</div>
+					<div class="description">
+						Get the current scale factor of the sprite, that is its size compared to the source image (or animation frame) size
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{{x: number|y: number}}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getSceneObject"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/SceneObject.html">SceneObject</a>}</span>
+					<b>getSceneObject</b>()
+					
+					</div>
+					<div class="description">
+						Get the parent scene object for this sprite (if any)
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/SceneObject.html">SceneObject</a>}</span> The parent scene object</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getScreenPositionAndExtents"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Object}</span>
+					<b>getScreenPositionAndExtents</b>()
+					
+					</div>
+					<div class="description">
+						Get the screen space position and extents for this sprite
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> An object with the following layout: {extents: {x, y}, position {x,y}}</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getSize"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Object}</span>
+					<b>getSize</b>()
+					
+					</div>
+					<div class="description">
+						Get the world space size of the sprite
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> An object with 'x' and 'y' fields representing the world space size of the sprite</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getSortPoint"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Object}</span>
+					<b>getSortPoint</b>()
+					
+					</div>
+					<div class="description">
+						Get the sprite's sort point that is used in the calculations to determine whether the sprite should appear in front of other sprites in the same layer, according to the layer's sorting mode.
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> An object with 'x' and 'y' fields representing the sprite's sort point</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getWorldOffset"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Object}</span>
+					<b>getWorldOffset</b>(screenPosition)
+					
+					</div>
+					<div class="description">
+						Convert a screen space position into a world space offset relative to the sprite's world space position
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>screenPosition</b>
+									
+								</dt>
+								<dd>An object with 'x' and 'y' fields representing the screen space position</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> An object with 'x' and 'y' fields representing the world space offset</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="hasAnimation"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{boolean}</span>
+					<b>hasAnimation</b>(name)
+					
+					</div>
+					<div class="description">
+						Check whether the sprite has an animation that matches the given name
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>name</b>
+									
+								</dt>
+								<dd>The animation name</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{boolean}</span> Whether the sprite has an animation that matches the given name</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isAlwaysDrawing"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{boolean}</span>
+					<b>isAlwaysDrawing</b>()
+					
+					</div>
+					<div class="description">
+						Check whether a sprite is being forcefully drawn every frame
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{boolean}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isUsingPixelPerfectMouseEvents"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{boolean}</span>
+					<b>isUsingPixelPerfectMouseEvents</b>()
+					
+					</div>
+					<div class="description">
+						Check whether the Sprite is using pixel-perfect mouse events, i.e. it discards mouse events on fully transparent pixels
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{boolean}</span> Whether pixel-perfect mouse events are enabled for this Sprite</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isVisible"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{boolean}</span>
+					<b>isVisible</b>()
+					
+					</div>
+					<div class="description">
+						Check whether the sprite is visible
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{boolean}</span> Whether the sprite is visible</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="overlapsSprite"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{boolean}</span>
+					<b>overlapsSprite</b>(otherSprite)
+					
+					</div>
+					<div class="description">
+						Test to see whether this sprite overlaps another sprite
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/Sprite.html">Sprite</a>}</span> <b>otherSprite</b>
+									
+								</dt>
+								<dd>The other sprite to test</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{boolean}</span> Whether the two sprites are overlapping</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="playAnimation"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>playAnimation</b>(name, direction)
+					
+					</div>
+					<div class="description">
+						Play an animation for this sprite
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>name</b>
+									
+								</dt>
+								<dd>The name of an animation that has previously been added with a call to 'addAnimation'</dd>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>direction</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The direction of the animation. It can be 'forward', 'reverse' or 'ping-pong' (which means forward and then reverse). Default is 'forward'</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="pushToBack"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>pushToBack</b>()
+					
+					</div>
+					<div class="description">
+						Send the sprite to the back of its layer. Note that if any sorting function (other than 'none') has been specified for the layer, when the sorting occurs it will override this operation
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="putBehindSprite"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>putBehindSprite</b>(otherSprite)
+					
+					</div>
+					<div class="description">
+						Move the sprite behind another sprite in the same layer. Note that if any sorting function (other than 'none') has been specified for the layer, when the sorting occurs it will override this operation
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/Sprite.html">Sprite</a>}</span> <b>otherSprite</b>
+									
+								</dt>
+								<dd>The sprite that should appear in front of this sprite</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="resumeAnimation"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>resumeAnimation</b>()
+					
+					</div>
+					<div class="description">
+						Resume playing an animation that had been stopped
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="serialize"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{object|string}</span>
+					<b>serialize</b>(stringify, propertiesToExclude)
+					
+					</div>
+					<div class="description">
+						Export this sprite to an object that can then be used to create a new sprite like this one (by passing the resulting object to the Sprite constructor).
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>stringify</b>
+									<i>Optional</i>
+								</dt>
+								<dd>Whether the resulting object should be serialized to a JSON string. If this is set to true, this function returns a string representation of the sprite.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>propertiesToExclude</b>
+									<i>Optional</i>
+								</dt>
+								<dd>An array of strings that contains the name of the properties of this Sprite object that you do NOT want to export.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{object|string}</span> An object that represents the current sprite</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setDirtyArea"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setDirtyArea</b>()
+					
+					</div>
+					<div class="description">
+						Mark the area occupied by the sprite as dirty. Depending on the sprite's layer's properties, this operation may cause this and some other sprites to be redrawn for the next frame
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setDrawFunction"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setDrawFunction</b>(drawFunction)
+					
+					</div>
+					<div class="description">
+						Set a custom draw function for the sprite
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>drawFunction</b>
+									
+								</dt>
+								<dd>The draw function to use for this sprite. Draw function are passed one parameter, which is the current HTML5 context object. Note that the it is assumed that the draw function will never draw anything outside the bounding box the sprite. Doing so may result in incorrect behavior.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setDrawModifiers"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setDrawModifiers</b>(modifiers)
+					
+					</div>
+					<div class="description">
+						Set draw modifiers for this sprite. This is a simpler (although less flexible) way of setting draw functions for sprites, for some common cases.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>modifiers</b>
+									
+								</dt>
+								<dd>An array of modifiers. Each element is an object with a <i>type</i> field and (optionally) a set of parameters. Supported modifiers are:<ul>
+    <li>{type: 'alpha', alpha: number}</li>
+    <li>{type: 'blink', timeOn: number, timeOff: number}</li>
+    <li>{type: 'fadeOpacity', start: number, end: number, time: number}</li>
+    <li>{type: 'flip'}</li>
+    <li>{type: 'mirror'}</li>
+    <li>{type: 'additive'}</li></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setImageArea"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setImageArea</b>(minX, minY, maxX, maxY)
+					
+					</div>
+					<div class="description">
+						Set the area of the source image that should be used to draw this sprite. Numbers should be between 0 and 1, representing a fraction of the source image size.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{number}</span> <b>minX</b>
+									
+								</dt>
+								<dd>The X coordinate of the left edge. Default is 0.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{number}</span> <b>minY</b>
+									
+								</dt>
+								<dd>The Y coordinates of the top edge. Default is 0.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{number}</span> <b>maxX</b>
+									
+								</dt>
+								<dd>The X coordinate of the right edge. Default is 1.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{number}</span> <b>maxY</b>
+									
+								</dt>
+								<dd>The Y coordinate of the bottom edge. Default is 1.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setImageFile"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setImageFile</b>(image, updateSizeFromImage)
+					
+					</div>
+					<div class="description">
+						Set an image to use with the current sprite
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>image</b>
+									
+								</dt>
+								<dd>The file name of an image that has previously been loaded</dd>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>updateSizeFromImage</b>
+									<i>Optional, Default: false</i>
+								</dt>
+								<dd>Whether to update the sprite size based on the image size</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setIndexInLayer"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{number}</span>
+					<b>setIndexInLayer</b>(index)
+					
+					</div>
+					<div class="description">
+						Set the sprite's index in its layer.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{number}</span> <b>index</b>
+									
+								</dt>
+								<dd>The desired index of the sprite.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{number}</span> The actual index of the sprite after attempting this operation. If the layer has N sprites, and you try to set the index to a number greater than N-1, the sprite will be moved at index N-1 instead. If the sprite hasn't been added to the layer yet, this function will return -1.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setLayer"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setLayer</b>(layerId)
+					
+					</div>
+					<div class="description">
+						Set a new layer for the sprite
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{number}</span> <b>layerId</b>
+									
+								</dt>
+								<dd>The id of the new layer</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setName"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setName</b>(name)
+					
+					</div>
+					<div class="description">
+						Set a name for the sprite
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>name</b>
+									
+								</dt>
+								<dd>The name to set</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setPixelShader"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setPixelShader</b>(shaderSource, shaderUniforms)
+					
+					</div>
+					<div class="description">
+						Set a custom pixel shader for this sprite. In addition, to the shader uniforms that you can pass as the second argument, the shader has access to some global uniforms / varyings: <ul>
+<li>uvAlphaTime: a vec4 where x is the u coordinate, y is the v coordinate, z is the current alpha level, w is the current app time</li>
+<li>uDiffuseSampler: a 2d sampler with the current texture</li></ul>
+Note that you can only specify the contents of the shader function, not the function itself. For reference, look at the result of Sprite.getPixelShader()
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>shaderSource</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The contents of a "main(void)" fragment shader function. If omitted or empty, the default pixel shader is used.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{object}</span> <b>shaderUniforms</b>
+									<i>Optional</i>
+								</dt>
+								<dd>An object that specifies the name and type of custom shader uniforms that you want to use. For example {tintColor: 'vec4'}. Values will be retrieved from public properties of the Sprite using the same name. So in this example, make sure that your sprite has got a property called tintColor that is an array with 4 elements. Supported types are currently: float, vec2, vec3, vec4, int, ivec2, ivec3 and ivec4.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setPosition"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setPosition</b>(positionX, positionY)
+					
+					</div>
+					<div class="description">
+						Set the world space position of the sprite.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{number|Object}</span> <b>positionX</b>
+									
+								</dt>
+								<dd>A coordinate for the horizontal axis, or an object with 'x' and 'y' fields representing world space coordinates</dd>
+							
+								<dt>
+									<span class="light fixedFont">{number}</span> <b>positionY</b>
+									<i>Optional</i>
+								</dt>
+								<dd>A coordinate for the vertical axis</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setRotation"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setRotation</b>(rotation)
+					
+					</div>
+					<div class="description">
+						Set a rotation angle for the sprite
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{number}</span> <b>rotation</b>
+									
+								</dt>
+								<dd>The rotation angle in radians. A positive value indicates a clockwise rotation</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setSceneObject"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setSceneObject</b>(sceneObject)
+					
+					</div>
+					<div class="description">
+						Set the parent scene object for the sprite. If there is an animation playing, this operation may trigger an 'onAnimationEnd' event for the old parent and an 'onAnimationStart' event for the new parent.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/SceneObject.html">SceneObject</a>}</span> <b>sceneObject</b>
+									
+								</dt>
+								<dd>The new parent scene object</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setSize"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setSize</b>(width, height, resetScaleFactor)
+					
+					</div>
+					<div class="description">
+						Set the world space size of the sprite
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{number}</span> <b>width</b>
+									
+								</dt>
+								<dd>The desired width of the sprite</dd>
+							
+								<dt>
+									<span class="light fixedFont">{number}</span> <b>height</b>
+									
+								</dt>
+								<dd>The desired height of the sprite</dd>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>resetScaleFactor</b>
+									<i>Optional, Default:  false</i>
+								</dt>
+								<dd>Whether to reset the scale factor to {x: 1, y: 1}. This only affects sprites that have a currently active animation with the autoResize property, and is used to tell the sprite that this size should be its default size, regardless of what any active autoresizing animation is doing.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setSortPoint"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setSortPoint</b>(x, y)
+					
+					</div>
+					<div class="description">
+						Set a sort point for the sprite. This will be used in the calculations to determine whether the sprite should appear in front of other sprites in the same layer, according to the layer's sorting mode.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{number}</span> <b>x</b>
+									
+								</dt>
+								<dd>The offset on the X axis. This is relative to the sprite's width. A value of 1 means the full width of the sprite. This is typically between -0.5 and 0.5, and 0 by default.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{number}</span> <b>y</b>
+									
+								</dt>
+								<dd>The offset on the Y axis. This is relative to the sprite's height. A value of 1 means the full height of the sprite.  This is typically between -0.5 and 0.5, and 0 by default.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setVisible"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setVisible</b>(toggle)
+					
+					</div>
+					<div class="description">
+						Show or hide a sprite
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>toggle</b>
+									
+								</dt>
+								<dd>Whether to show the sprite</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="step"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>step</b>()
+					
+					</div>
+					<div class="description">
+						Perform a simulation step for the sprite. This involves updating the sprite's animation, if there is one that is currently playing.<br/>
+This function is called automatically by WADE, that aims to maintain a constant calling rate where possible (60Hz by default).
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="stopAnimation"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>stopAnimation</b>()
+					
+					</div>
+					<div class="description">
+						Stop the animation that is currently playing
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="usePixelPerfectMouseEvents"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>usePixelPerfectMouseEvents</b>(toggle)
+					
+					</div>
+					<div class="description">
+						Set the Sprite to use (or not use) pixel-perfect mouse events, i.e. discard mouse events on fully transparent pixels. By default, Sprites do not use pixel-perfect mouse events. Enabling this has implications for performance and memory usage.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{boolean}</span> <b>toggle</b>
+									<i>Optional, Default: true</i>
+								</dt>
+								<dd>Whether to use pixel-perfect mouse events or not. If omitted or undefined, this parameter is assumed to be true.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Thu Dec 22 2016 16:49:17 GMT-0000 (GMT)
+		</div>
+	</body>
+</html>

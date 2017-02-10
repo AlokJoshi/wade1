@@ -1,0 +1,1229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - PhysicsObject</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 800px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 600px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/Animation.html">Animation</a></li>
+	
+	<li><a href="../symbols/IsoCharacter.html">IsoCharacter</a></li>
+	
+	<li><a href="../symbols/Path.html">Path</a></li>
+	
+	<li><a href="../symbols/PhysicsObject.html">PhysicsObject</a></li>
+	
+	<li><a href="../symbols/SceneObject.html">SceneObject</a></li>
+	
+	<li><a href="../symbols/Sprite.html">Sprite</a></li>
+	
+	<li><a href="../symbols/TextSprite.html">TextSprite</a></li>
+	
+	<li><a href="../symbols/Wade.html">Wade</a></li>
+	
+	<li><a href="../symbols/Wade_drawFunctions.html">Wade_drawFunctions</a></li>
+	
+	<li><a href="../symbols/Wade_iso.html">Wade_iso</a></li>
+	
+	<li><a href="../symbols/Wade_physics.html">Wade_physics</a></li>
+	
+	<li><a href="../symbols/Wade_vec2.html">Wade_vec2</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class PhysicsObject
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class PhysicsObject.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/PhysicsObject.html#constructor">PhysicsObject</a></b>()
+							</div>
+							<div class="description">PhysicsObject is a behavior to be used with WADE, and is part of the wade.physics plug-in.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the fields documented in the class PhysicsObject.">
+					<caption>Field Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Field Attributes</th>
+							<th scope="col">Field Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/PhysicsObject.html#active">active</a></b>
+								</div>
+								<div class="description">Whether the physics object is active.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/PhysicsObject.html#allowSleeping">allowSleeping</a></b>
+								</div>
+								<div class="description">Whether this object should be allowed to sleep.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/PhysicsObject.html#angularDamping">angularDamping</a></b>
+								</div>
+								<div class="description">The amount of damping (reduction in velocity) that is caused by angular motion.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/PhysicsObject.html#bodyType">bodyType</a></b>
+								</div>
+								<div class="description">The type of physics body.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/PhysicsObject.html#bullet">bullet</a></b>
+								</div>
+								<div class="description">Whether the object is a bullet (a fast-moving object), which implies that it needs continuous collision detection to avoid going throug object</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/PhysicsObject.html#fixedRotation">fixedRotation</a></b>
+								</div>
+								<div class="description">Whether this object should only translate and never rotate.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/PhysicsObject.html#gravityScale">gravityScale</a></b>
+								</div>
+								<div class="description">A number to multiply the effect of gravity on this body.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/PhysicsObject.html#linearDamping">linearDamping</a></b>
+								</div>
+								<div class="description">The amount of damping (reduction in velocity) that is caused by linear motion.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class PhysicsObject.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/PhysicsObject.html#addFixture">addFixture</a></b>(fData)
+								</div>
+								<div class="description">Add a fixture to the physics body.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/PhysicsObject.html#addMouseJoint">addMouseJoint</a></b>(offset)
+								</div>
+								<div class="description">Add a mouse joint.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/PhysicsObject.html#applyForce">applyForce</a></b>(force, power, offset)
+								</div>
+								<div class="description">applyForceApply a force to a box2d body As this uses a normalized vector, do not convert the force using wadeToBox.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/PhysicsObject.html#applyImpulse">applyImpulse</a></b>(impulse, power, offset)
+								</div>
+								<div class="description">applyImpulseApply an impulse to a box2d body As this uses a normalized vector, do not convert the impulse using wadeToBox.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/PhysicsObject.html#applyTorque">applyTorque</a></b>(torque)
+								</div>
+								<div class="description">applyTorqueApply a torque to the body in newton-metersAffects the angular velocity but not the linear velocity</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/PhysicsObject.html#draw_">draw_</a></b>(color, originalDraw)
+								</div>
+								<div class="description">Get a debug draw function that shows the physics object using vector graphics.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/PhysicsObject.html#getFixtureList">getFixtureList</a></b>()
+								</div>
+								<div class="description">Get a list of fixtures attached to this object</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/PhysicsObject.html#getJointList">getJointList</a></b>()
+								</div>
+								<div class="description">Get a list of joints attached to this object</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/PhysicsObject.html#isAwake">isAwake</a></b>()
+								</div>
+								<div class="description">Check whether the physics object is awake or not.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/PhysicsObject.html#removeFixture">removeFixture</a></b>(fixture)
+								</div>
+								<div class="description">removeFixture Remove a fixture</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/PhysicsObject.html#removeMouseJoint">removeMouseJoint</a></b>(joint)
+								</div>
+								<div class="description">Remove a mouse joint from this object</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/PhysicsObject.html#setAwake">setAwake</a></b>(value)
+								</div>
+								<div class="description">Set a physics object as awake or not.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/PhysicsObject.html#updateMouseJoint">updateMouseJoint</a></b>(joint, pos)
+								</div>
+								<div class="description">Update the position of the target point for a mouse joint</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>PhysicsObject</b>()
+				</div>
+				
+				<div class="description">
+					PhysicsObject is a behavior to be used with WADE, and is part of the wade.physics plug-in.<br/>It gives you access to many physical properties for WADE objects.<br/>Example usage:var mySceneObject = new SceneObject(mySprite, PhysicsObject);<br/>mySceneObject.getBehavior().linearDamping = 0.3;
+					
+				</div>
+				
+				
+				
+				
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+				<div class="sectionTitle">
+					Field Detail
+				</div>
+				
+					<a name="active"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>active</b>
+					
+					</div>
+					<div class="description">
+						Whether the physics object is active. Inactive objects are not simulated and cannot be collided with.
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="allowSleeping"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>allowSleeping</b>
+					
+					</div>
+					<div class="description">
+						Whether this object should be allowed to sleep. Objects are set to sleep when resting on other objects, to speed up the simulation.
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="angularDamping"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>angularDamping</b>
+					
+					</div>
+					<div class="description">
+						The amount of damping (reduction in velocity) that is caused by angular motion. Usually between 0 and 1 (0 by default).
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="bodyType"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>bodyType</b>
+					
+					</div>
+					<div class="description">
+						The type of physics body. This is 'static' by default, indicating an immovable object. It can also be 'dynamic' or 'kinematic'
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="bullet"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>bullet</b>
+					
+					</div>
+					<div class="description">
+						Whether the object is a bullet (a fast-moving object), which implies that it needs continuous collision detection to avoid going throug object
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="fixedRotation"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>fixedRotation</b>
+					
+					</div>
+					<div class="description">
+						Whether this object should only translate and never rotate.
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="gravityScale"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>gravityScale</b>
+					
+					</div>
+					<div class="description">
+						A number to multiply the effect of gravity on this body. Setting this to 0 means that the object is not affected by gravity.
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="linearDamping"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>linearDamping</b>
+					
+					</div>
+					<div class="description">
+						The amount of damping (reduction in velocity) that is caused by linear motion. Usually between 0 and 1 (0 by default).
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					
+				
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="addFixture"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{object}</span>
+					<b>addFixture</b>(fData)
+					
+					</div>
+					<div class="description">
+						Add a fixture to the physics body. A fixture is a convex shape with physics properties, and each physics body can have any number of fixtures.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>fData</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{object}</span> The fixture object. This can later be used to remove a fixture through removeFixture().</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="addMouseJoint"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>addMouseJoint</b>(offset)
+					
+					</div>
+					<div class="description">
+						Add a mouse joint. A mouse joint is a target point that the object will try to follow when possible.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{{x: number|y: number}}</span> <b>offset</b>
+									
+								</dt>
+								<dd>The point in object-space that will try to track the target point.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd>A mouse joint object</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="applyForce"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>applyForce</b>(force, power, offset)
+					
+					</div>
+					<div class="description">
+						applyForceApply a force to a box2d body As this uses a normalized vector, do not convert the force using wadeToBox.However, since the y axis are reversed in wade vs box2d, multiply the force.y by -1
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>force</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<b>power</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<b>offset</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="applyImpulse"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>applyImpulse</b>(impulse, power, offset)
+					
+					</div>
+					<div class="description">
+						applyImpulseApply an impulse to a box2d body As this uses a normalized vector, do not convert the impulse using wadeToBox.However, since the y axis are reversed in wade vs box2d, multiply the impulse.y by -1
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>impulse</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<b>power</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<b>offset</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="applyTorque"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>applyTorque</b>(torque)
+					
+					</div>
+					<div class="description">
+						applyTorqueApply a torque to the body in newton-metersAffects the angular velocity but not the linear velocity
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>torque</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="draw_"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{function}</span>
+					<b>draw_</b>(color, originalDraw)
+					
+					</div>
+					<div class="description">
+						Get a debug draw function that shows the physics object using vector graphics. It currently only works for circle shapes.
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{string}</span> <b>color</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The color to use to draw the silhouette of the physics object. Default is 'green'.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{function}</span> <b>originalDraw</b>
+									<i>Optional</i>
+								</dt>
+								<dd>A draw function to call after drawing the silhouette of the physics object.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{function}</span> A draw function to use with Sprite.setDrawFunction()</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getFixtureList"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>getFixtureList</b>()
+					
+					</div>
+					<div class="description">
+						Get a list of fixtures attached to this object
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> An array of fixtures attached to this physics body</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getJointList"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>getJointList</b>()
+					
+					</div>
+					<div class="description">
+						Get a list of joints attached to this object
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> an array of joint objects attached to this body</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="isAwake"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{boolean}</span>
+					<b>isAwake</b>()
+					
+					</div>
+					<div class="description">
+						Check whether the physics object is awake or not. Objects can be not awake when they're resting on top of other objects, to improve the performance of the simulation
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{boolean}</span> Whether the physics object is awake</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="removeFixture"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>removeFixture</b>(fixture)
+					
+					</div>
+					<div class="description">
+						removeFixture Remove a fixture
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>fixture</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="removeMouseJoint"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>removeMouseJoint</b>(joint)
+					
+					</div>
+					<div class="description">
+						Remove a mouse joint from this object
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{object}</span> <b>joint</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The joint object to remove. If omitted, the first mouse joint will be removed.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setAwake"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setAwake</b>(value)
+					
+					</div>
+					<div class="description">
+						Set a physics object as awake or not. Objects can be not awake when they're resting on top of other objects, to improve the performance of the simulation
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>value</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="updateMouseJoint"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>updateMouseJoint</b>(joint, pos)
+					
+					</div>
+					<div class="description">
+						Update the position of the target point for a mouse joint
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{object}</span> <b>joint</b>
+									<i>Optional</i>
+								</dt>
+								<dd>The joint object to update, as previously returned by a call to addMouseJoint(). It can be omitted, in which case the first mouse joint will be used.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{{x: number|y: number}}</span> <b>pos</b>
+									
+								</dt>
+								<dd>The new position of the target point</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Thu Dec 22 2016 16:49:17 GMT-0000 (GMT)
+		</div>
+	</body>
+</html>
