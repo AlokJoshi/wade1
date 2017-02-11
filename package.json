@@ -7,6 +7,8 @@
     "doc": "doc"
   },
   "scripts": {
+    "start": "harp server -p 9000",
+    "dev": "harp server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/AlokJoshi/Wade1/issues"
   },
-  "homepage": "https://github.com/AlokJoshi/Wade1#readme"
+  "homepage": "https://github.com/AlokJoshi/Wade1#readme",
+  "dependencies": {
+    "harp": "^0.23.0"
+  }
 }
